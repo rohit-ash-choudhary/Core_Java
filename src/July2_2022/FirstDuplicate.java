@@ -2,7 +2,7 @@ package June27_2022;
 
 import java.util.Scanner;
 
-public class EvenOdd {
+public class FirstDuplicate {
     public static void main(String[] args) {
         int temp=0;
         Scanner sc=new Scanner(System.in);
@@ -13,19 +13,20 @@ public class EvenOdd {
         for (int i = 0; i < arr.length; i++) {
             arr[i]=sc.nextInt();
         }
-        int even_total=0;
-        int odd_total=0;
-        for (int i = 0; i < arr.length; i++) {
-            if(i%2==0)
-            {
-                even_total+=arr[i];
+        for (int i = 0; i < arr.length; i++) {   //BruteForce
+            for (int j = i+1; j < arr.length; j++) {
+                if(arr[i]==arr[j]) {
+                    System.out.println(arr[i]);
+                    temp++;
+                    break;
+                }
             }
-            else{
-                odd_total+=arr[i];
+            if(temp>0)
+            {
+                break;
             }
 
         }
-        System.out.println(even_total);
-        System.out.println(odd_total);
+
     }
 }

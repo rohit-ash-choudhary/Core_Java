@@ -2,7 +2,7 @@ package June27_2022;
 
 import java.util.Scanner;
 
-public class EvenOdd {
+public class FindElementAppeareOneInJava {
     public static void main(String[] args) {
         int temp=0;
         Scanner sc=new Scanner(System.in);
@@ -13,19 +13,10 @@ public class EvenOdd {
         for (int i = 0; i < arr.length; i++) {
             arr[i]=sc.nextInt();
         }
-        int even_total=0;
-        int odd_total=0;
-        for (int i = 0; i < arr.length; i++) {
-            if(i%2==0)
-            {
-                even_total+=arr[i];
-            }
-            else{
-                odd_total+=arr[i];
-            }
-
+        int xor=0;
+        for(int i = 0; i < arr.length; i++) {
+            xor=xor^arr[i];
         }
-        System.out.println(even_total);
-        System.out.println(odd_total);
+        System.out.println(xor);
     }
 }
