@@ -14,7 +14,7 @@ variable and used to call superclass constructor
 
 /* as constructor is initializing we can't inherit this */
 /* as constructor is initializing its not return anything so there is no return type and also in case
-* of default constructor compiler how decide what is return type because return type decide by us  */
+ of default constructor compiler how decide what is return type because return type decide by us  */
 public class Constructor {
     String emp_name;
     int emp_id;
@@ -31,8 +31,8 @@ public class Constructor {
       //  Constructor obj2=new Constructor(); becuase to intilize object use constructor
 
         System.out.println(obj);
-        System.out.println(obj2.emp_name);
-        System.out.println(obj2.emp_id);
+        System.out.println(obj.emp_name);
+        System.out.println(obj.emp_id);
 
 
     }
