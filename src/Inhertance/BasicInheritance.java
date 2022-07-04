@@ -23,6 +23,18 @@ Upcasting:
 
 Present_class object =new child_class() //upcasting allowed
 Child_class object =new Present_class  //Error
+
+10-4-4: Which of the following reasons for using an inheritance hierarchy are valid?
+
+        Object methods from a superclass can be used in a subclass without rewriting or copying code.
+
+        Objects from subclasses can be passed as arguments to a method that takes an argument of the parent type.
+
+        Objects from subclasses can be stored in the same array of the parent type.
+
+        All of the above
+
+        answer: All Class //Doubts
  */
 package Inhertance;
 
