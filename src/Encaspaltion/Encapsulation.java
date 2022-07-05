@@ -10,6 +10,11 @@ How Achieve Encapsulation:
  We have no direct access of variables(Data)
  For Data Security
 
+ Basically in Encapsulation we're hiding the variable so when can access outside this variable
+ except declared in class
+ if you want to set and get then not direct access there are public method use that methods
+
+
 
 
 
