@@ -28,7 +28,7 @@ What is Uses of static Method & What we write in static block:
 What is native method : Code that create in other language
 
 Oder of calling
-Static block > Main Method >Instace block  > Constructor
+Static block > Main Method >Instance block  > Constructor
 
 
 
